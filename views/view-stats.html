@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8"/>
+    <link rel="icon" href="img/009-chess-4.png"/>
+
+    <title>Chess Club!</title>
+
+    <link type="text/css" rel="stylesheet" href="/style.css"/>
+    <!--gets your stylesheet (style.css)-->
+    <script src="/client.js">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js">
+    </script>
+    <!-- required to send data to client.js -->
+</head>
+
+<body>
+<div class="navbar">
+    <a href="https://juneberries.github.io" class="icon-link"></a>
+    <a href="index.html" class="website-link"></a>
+    <a href="https://replit.com/@JuneBerries" class="glitch-link"></a>
+
+    <div class="nav-container">
+        <a href="openings.html" class="nav-link">
+            <img
+                    src="img/004-chess-board.png"
+                    alt=""
+                    loading="lazy"
+                    width="36"
+                    height="36"
+                    class="image-link"
+            />
+            <div class="link-text">Openings</div>
+        </a>
+        <a href="view-stats.html" class="nav-link">
+            <img
+                    src="img/001-chess-player.png"
+                    alt=""
+                    loading="lazy"
+                    width="36"
+                    height="36"
+                    class="image-link"
+            />
+            <div class="link-text"><strong>Player Stats</strong></div>
+        </a>
+        <a href="shop.html" class="nav-link">
+            <img
+                    src="img/005-chess-2.png"
+                    alt=""
+                    loading="lazy"
+                    width="36"
+                    height="36"
+                    class="image-link"
+            />
+            <div class="link-text">About</div>
+        </a>
+    </div>
+</div>
+
+<div class="stats-container">
+    <div class="graph-main">
+
+        <div class="stats-holder">
+            <div class="card">
+                <div class="additional">
+                    <div class="user-card">
+                        <div class="level center">
+                            GM
+                        </div>
+                        <div class="points center">
+                            2892 Blitz
+                        </div>
+                        <img class="card-icon"
+                             src="https://images.chesscomfiles.com/uploads/v1/master_player/3b0ddf4e-bd82-11e8-9421-af517c2ebfed.1e700464.250x250o.6778b8ca3f45.jpeg"
+                             alt="" loading="lazy" width="28vh" height="28vh">
+                    </div>
+                    <div class="more-info">
+                        <h1>Magnus Carlsen</h1>
+
+                        <div class="coords">
+                            <br>
+                            <li>Grand Master</li>
+                            <li>Nov 30, 1990</li>
+                            <li>Tønsberg, Norway</li>
+                            <li>Federation Norway</li>
+                        </div>
+                        <div class="stats">
+                            <div>
+                                <div class="title"> Ranking</div>
+                                <i class="fa fa-globe"></i>
+                                <div class="value">#1</div>
+                            </div>
+                            <div>
+                                <div class="title">Rapid</div>
+                                <i class="fa fa-clock-o"></i>
+                                <div class="value">2842</div>
+                            </div>
+                            <div>
+                                <div class="title">Blitz</div>
+                                <i class="fa fa-bolt"></i>
+                                <div class="value">2892</div>
+                            </div>
+                            <div>
+                                <div class="title">Classical</div>
+                                <i class="fa fa-hourglass"></i>
+                                <div class="value">2855</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="general">
+                    <h1>Magnus Carlsen</h1>
+                    <p>GM Magnus Carlsen is the current world chess champion. To many people, he’s the best to ever play
+                        the
+                        game. Carlsen has already earned a spot at the top.</p>
+                    <span class="more">Hover for more info</span>
+                </div>
+            </div>
+            <canvas class="card-graph" id="MCgraph"></canvas>
+        </div>
+        <div class="stats-holder">
+            <div class="card">
+                <div class="additional">
+                    <div class="user-card">
+                        <div class="level center">
+                            GM
+                        </div>
+                        <div class="points center">
+                            2884 Blitz
+                        </div>
+                        <img class="card-icon"
+                             src="https://images.chesscomfiles.com/uploads/v1/master_player/5c8147c2-bd7f-11e8-863f-15ded6970bf6.21613c28.250x250o.6abb82a4fa80.jpeg"
+                             alt="" loading="lazy">
+                    </div>
+                    <div class="more-info">
+                        <h1>Hikaru Nakamura</h1>
+
+                        <div class="coords">
+                            <br>
+                            <li>Grand Master</li>
+                            <li>Dec 9, 1987</li>
+                            <li>Hirakata, Japan</li>
+                            <li>Federation US</li>
+                        </div>
+                        <div class="stats">
+                            <div>
+                                <div class="title"> Ranking</div>
+                                <div class="value">#19</div>
+                            </div>
+                            <div>
+                                <div class="title">Rapid</div>
+                                <div class="value">2836</div>
+                            </div>
+                            <div>
+                                <div class="title">Blitz</div>
+                                <div class="value">2884</div>
+                            </div>
+                            <div>
+                                <div class="title">Classical</div>
+                                <div class="value">2736</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="general">
+                    <h1>Hikaru Nakamura</h1>
+                    <p>Nakamura has been one of the world’s top players for well over a decade.
+                        <br>He is now a key contributor to one of the strongest chess scenes in the world.</p>
+                    <span class="more">Hover for more info</span>
+                </div>
+            </div>
+            <canvas class="card-graph" id="HNgraph"></canvas>
+        </div>
+
+        <div class="stats-holder">
+            <div class="card">
+                <div class="additional">
+                    <div class="user-card">
+                        <div class="level center">
+                            IM
+                        </div>
+                        <div class="points center">
+                            2195 Rapid
+                        </div>
+                        <img class="card-icon"
+                             src="https://images.chesscomfiles.com/uploads/v1/user/30236204.23f3d7db.160x160o.5b427037f1f9.jpeg"
+                             alt="" loading="lazy" width="28vh" height="28vh">
+                    </div>
+                    <div class="more-info">
+                        <h1>Anna Rudolf</h1>
+
+                        <div class="coords">
+                            <br>
+                            <li>International Master</li>
+                            <li>November 12, 1987</li>
+                            <li>Miskolc, Hungary</li>
+                            <li>Federation Spain</li>
+                        </div>
+                        <div class="stats">
+                            <div>
+                                <div class="title">FIDE</div>
+                                <div class="value">2325</div>
+                            </div>
+                            <div>
+                                <div class="title">Rapid</div>
+                                <div class="value">2195</div>
+                            </div>
+                            <div>
+                                <div class="title">Blitz</div>
+                                <div class="value">2005</div>
+                            </div>
+                            <div>
+                                <div class="title">Bullet</div>
+                                <div class="value">2036</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="general">
+                    <h1>Anna Rudolf</h1>
+                    <p>Anna Rudolf is a Hungarian chess player, chess commentator,
+                        Twitch live streamer, and YouTuber
+                        who holds the titles of International Master (IM) and Woman Grandmaster (WGM). </p>
+                    <span class="more">Hover for more info</span>
+                </div>
+            </div>
+            <canvas class="card-graph" id="ARgraph"></canvas>
+        </div>
+        <div class="stats-holder">
+            <div class="card">
+                <div class="additional">
+                    <div class="user-card">
+                        <div class="level center">
+                            IM
+                        </div>
+                        <div class="points center">
+                            Puzzles 3287
+                        </div>
+                        <img class="card-icon"
+                             src="https://images.chesscomfiles.com/uploads/v1/master_player/de4c8970-1fa1-11eb-b085-f9083b57b9d8.09ceeeff.250x250o.0401a269c1c9.jpeg"
+                             alt="" loading="lazy">
+                    </div>
+                    <div class="more-info">
+                        <h1>Levy Rozman</h1>
+
+                        <div class="coords">
+                            <br>
+                            <li>International Master</li>
+                            <li>Dec 5, 1995</li>
+                            <li>Brooklyn, NY USA</li>
+                            <li>Federation US</li>
+                        </div>
+                        <div class="stats">
+                            <div>
+                                <div class="title"> FIDE</div>
+                                <div class="value">2337</div>
+                            </div>
+                            <div>
+                                <div class="title">Rapid</div>
+                                <div class="value">2428</div>
+                            </div>
+                            <div>
+                                <div class="title">Blitz</div>
+                                <div class="value">2665</div>
+                            </div>
+                            <div>
+                                <div class="title">Bullet</div>
+                                <div class="value">2744</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="general">
+                    <h1>Levy Rozman</h1>
+                    <p>Levy Rozman, known online as GothamChess,
+                        is a chess International Master and commentator.
+                        He produces content on the online platforms Twitch and YouTube.</p>
+                    <span class="more">Hover for more info</span>
+                </div>
+            </div>
+            <canvas class="card-graph" id="LRgraph"></canvas>
+        </div>
+    </div>
+
+</div>
+
+<footer>
+    <div class="footer-content">
+        <a href="https://juneberries.github.io" target="_blank"
+        ><p class="footer-link">
+            <img
+                    class="footer-icon"
+                    alt="github"
+                    src="img/jane.png"
+            /><br/>©2021 Jane Alderson
+        </p></a
+        >
+    </div>
+</footer>
+</body>
+<script>
+    theme()
+    graphs()
+</script>
+</html>

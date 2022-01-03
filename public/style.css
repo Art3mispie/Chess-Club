@@ -1,0 +1,666 @@
+/*Colors*/
+:root {
+    --black: #F8F8FF;
+    --white: #0e0c0d;
+    --background: rgba(221, 131, 224, 0.8);
+    --primary: linear-gradient(to bottom right, rgba(56, 66, 76, 0.4), rgba(158, 112, 183, 0.4));
+    --secondary: linear-gradient(to bottom right, rgba(221, 131, 224, 0.4), rgba(17, 45, 96, 0.4));
+    --secondary-solid: linear-gradient(to bottom right, rgba(56, 66, 76, 1), rgba(158, 112, 183, 1));
+    --wallpaper: url("bg1.jpg");
+}
+
+
+/*Morning Settings
+background colors; rgba(255, 201, 201, 0.8)
+primary; rgba(237, 118, 94, 0.4), rgba(227, 189, 229, 0.4)
+secondary; rgba(253, 152, 106, 0.4), rgba(255, 201, 201, 0.4)
+wallpaper bg1.jpg*/
+
+/*Day Settings
+background colors; rgba(182, 192, 197, 0.8)
+primary; rgba(24, 165, 167, 0.4), rgba(182, 192, 197, 0.4)
+secondary; rgba(157, 221, 229, 0.4), rgba(96, 134, 238, 0.4)
+wallpaper bg2.jpg*/
+
+/*Night Settings
+background colors; rgba(221, 131, 224, 0.8)
+primary; rgba(182, 126, 214, 0.4), rgba(56, 66, 76, 0.4)
+secondary; rgba(221, 131, 224, 0.4), rgba(17, 45, 96, 0.4)
+wallpaper bg3.jpg
+note; swap black and whites*/
+
+
+/*Main CSS*/
+@import url('https://fonts.googleapis.com/css?family=Abel');
+
+html, body {
+    font-family: Abel, Arial, Verdana, sans-serif;
+}
+
+body {
+    background-image: var(--wallpaper);
+    background-size: cover;
+    background-repeat: repeat;
+}
+
+/*Navigation bar CSS*/
+.navbar {
+    position: relative;
+    width: 100%;
+    height: 60px;
+    background-color: var(--background);
+    border-radius: 5px;
+}
+
+.icon-link {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 100%;
+    background-image: url("jane.png");
+    background-size: contain;
+}
+
+.website-link {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 60px;
+    background-image: url("009-chess-4.png");
+    background-size: contain;
+}
+
+.glitch-link {
+    position: absolute;
+    right: 0;
+    width: 50px;
+    height: 40px;
+    margin-top: 10px;
+    margin-right: 10px;
+    background-image: url("glitch.png");
+    background-size: contain;
+}
+
+.nav-link {
+    display: flex;
+    position: relative;
+    width: auto;
+    height: 100%;
+    margin-left: 10px;
+    color: var(--black);
+    text-decoration: none;
+}
+
+.link-text {
+    padding-top: 8px;
+    padding-left: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: left;
+    text-decoration: none;
+}
+
+.nav-container {
+    position: relative;
+    left: 36.5%;
+    top: 20%;
+    right: 36.5%;
+    bottom: 0;
+    display: flex;
+    width: 30%;
+    height: 60%;
+    justify-content: center;
+    text-align: left;
+}
+
+
+
+
+/*Home Page CSS*/
+.index-container {
+    display: flex;
+    height: auto;
+    margin-top: 5%;
+    justify-content: center;
+    align-items: center;
+}
+
+.pages {
+    position: relative;
+    width: 20rem;
+    height: 35rem;
+    margin-left: 1rem;
+    align-self: center;
+    border-radius: 10px;
+    background-image: var(--secondary);
+    backdrop-filter: blur(5px);
+    color: var(--black);
+    text-align: left;
+    background-clip: border-box;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12),
+    0 2px 2px rgba(0, 0, 0, 0.12),
+    0 4px 4px rgba(0, 0, 0, 0.12),
+    0 8px 8px rgba(0, 0, 0, 0.12),
+    0 16px 16px rgba(0, 0, 0, 0.12);
+}
+
+.page-container {
+    position: relative;
+    width: 15rem;
+    height: 15rem;
+    margin-top: 2.5rem;
+    margin-left: 2.5rem;
+    border-radius: 100%;
+    background-image: var(--primary);
+    backdrop-filter: blur(5px);
+    font-weight: 400;
+    text-align: center;
+    object-fit: fill;
+}
+
+.page-icon {
+    position: relative;
+    display: inline-block;
+    max-height: 9rem;
+    max-width: 9rem;
+    margin: 3rem auto auto;
+}
+
+.description {
+    position: relative;
+    width: 15rem;
+    margin-top: 2rem;
+    margin-left: 2.5rem;
+    padding-left: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--black);
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.learn-more {
+    position: absolute;
+    width: 15rem;
+    height: 3.5rem;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+    margin-left: 2.5rem;
+    border-radius: 10px;
+    background-image: var(--primary);
+    backdrop-filter: blur(5px);
+    color: var(--black);
+    text-align: center;
+    display: inline-flex;
+    text-decoration: none;
+    filter: drop-shadow(5px 5px 4px rgba(131, 92, 113, 0.8));
+}
+
+.image {
+    position: relative;
+    width: 2.25rem;
+    height: 2.25rem;
+    margin: 0.625rem 5px 0.625rem 24%;
+}
+
+.text-block {
+    position: relative;
+    width: auto;
+    margin-top: 1.125rem;
+    font-weight: normal;
+    text-align: left;
+}
+
+
+
+
+/*Opening Explorer Page CSS*/
+.open-container {
+    position: relative;
+    margin-top: 2.5vh;
+    display: inline-flex;
+    height: 40%;
+    width: 100%;
+    justify-content: center;
+}
+
+.open-menu {
+    position: relative;
+    overflow: hidden;
+    width: 30vw;
+    height: 85vh;
+    margin-right: 5vw;
+    border-radius: 10px;
+    background-image: var(--primary);
+    backdrop-filter: blur(5px);
+    object-fit: fill;
+    font-style: none;
+}
+
+.open-menu-title {
+    position: relative;
+    margin-top: 1rem;
+    font-size: 18px;
+    color: var(--black);
+    font-weight: 400;
+    text-align: center;
+}
+
+.form-container {
+    position: relative;
+    align-content: center;
+    text-align: center;
+    align-items: center;
+    height: 80%;
+    width: 30vw;
+    margin-top: 10vh;
+    flex-direction: column;
+    justify-content: space-between;
+    display: inline-flex;
+}
+
+.open-option {
+    width: 30vw;
+    height: auto;
+    text-align: center;
+    color: var(--black);
+}
+
+.open-content {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    width: 55vw;
+    min-height: 50vh;
+    border-radius: 10px;
+    background-image: var(--primary);
+    backdrop-filter: blur(5px);
+}
+
+.open-banner {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 5vh;
+    background-image: var(--secondary);
+    backdrop-filter: blur(5px);
+}
+
+.open-title {
+    align-self: center;
+    flex: 1;
+    font-size: 20px;
+    color: var(--black);
+    text-align: center;
+}
+
+.open-board {
+    position: relative;
+    width: 35vw;
+    height: 35vw;
+}
+
+.board-holder {
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: left;
+}
+
+.pgn-holder {
+    padding-top: 1vh;
+    padding-left: 1vw;
+    position: relative;
+    height: auto;
+    width: 70%;
+    min-width: 5vw;
+    font-size: 18px;
+    color: var(--black);
+    text-align: left;
+}
+
+.open-link{
+  font-style: none;
+  text-align: center;
+}
+
+.open-send {
+    position: relative;
+    width: 16vw;
+    height: 3.5rem;
+    margin-bottom: 5vh;
+    border-radius: 10px;
+    background-image: var(--secondary);
+    backdrop-filter: blur(5px);
+    color: var(--black);
+    text-align: center;
+    filter: drop-shadow(5px 5px 4px rgba(131, 92, 113, 0.8));
+    font-size: 17px;
+    align-content: center;
+}
+
+
+
+
+/*Player Statistics Page CSS*/
+.stats-container {
+    padding-top: 2vh;
+    position: relative;
+    margin-top: 2vh;
+    display: inline-flex;
+    height: 40%;
+    width: 100%;
+    justify-content: center;
+}
+
+.stats-menu {
+    position: sticky;
+    top: 4vh;
+    overflow: hidden;
+    width: 30vw;
+    height: 92vh;
+    margin-top: 6vh;
+    margin-right: 5vw;
+    border-radius: 10px;
+    background-image: var(--primary);
+    backdrop-filter: blur(5px);
+    object-fit: fill;
+}
+
+.stats-menu-title {
+    position: relative;
+    margin-top: 1rem;
+    font-size: 18px;
+    color: var(--black);
+    font-weight: 400;
+    text-align: center;
+}
+
+
+
+
+/* CSS for Player Info */
+.card {
+    width: 90vh;
+    height: 50vh;
+    background-color: var(--white);
+    color: var(--black);
+    box-shadow: 0 8px 16px -8px rgba(0, 0, 0, 0.4);
+    border-radius: 6px;
+    overflow: hidden;
+    position: relative;
+    margin: 3vh;
+}
+
+.card h1 {
+    text-align: center;
+}
+
+.card .additional {
+    position: absolute;
+    width: 30vh;
+    height: 100%;
+    background: var(--secondary-solid);
+    transition: width 0.4s;
+    overflow: hidden;
+    z-index: 2;
+}
+
+.card:hover .additional {
+    width: 100%;
+    border-radius: 0 5px 5px 0;
+}
+
+.card .additional .user-card {
+    width: 29vh;
+    height: 100%;
+    text-align: center;
+    position: relative;
+    float: left;
+}
+
+.card .additional .user-card::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 10%;
+    right: -0.4vh;
+    height: 80%;
+    border-left: 2px solid rgba(0, 0, 0, 0.025);
+    align-content: center;
+}
+
+.card .additional .user-card .level,
+.card .additional .user-card .points {
+    top: 15%;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: bold;
+    background: rgba(0, 0, 0, 0.15);
+    padding: 0.125rem 0.75rem;
+    border-radius: 5px;
+    white-space: nowrap;
+    text-align: center;
+    align-self: center;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.card .additional .user-card .points {
+    top: 85%;
+}
+
+.card-icon {
+    position: relative;
+    align-self: center;
+    padding-top: 3vh;
+    padding-left: 1vh;
+    height: 26vh;
+    width: 26vh;
+    overflow: hidden;
+}
+
+.card .additional .more-info {
+    width: 60vh;
+    float: left;
+    position: absolute;
+    left: 30vh;
+    height: 100%;
+}
+
+.card .additional .more-info h1 {
+    color: #fff;
+    margin-bottom: 0;
+}
+
+.card .additional .coords {
+    margin: 0 3rem;
+    color: #fff;
+    font-size: 3.5vh;
+}
+
+.card .additional .coords span + span {
+    float: right;
+}
+
+.card .additional .stats {
+    font-size: 4rem;
+    display: flex;
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+    right: 1rem;
+    top: auto;
+    color: #fff;
+}
+
+.card .additional .stats > div {
+    flex: 1;
+    text-align: center;
+}
+
+.card .additional .stats i {
+    display: block;
+}
+
+.card .additional .stats div.title {
+    font-size: 0.75rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.card .additional .stats div.value {
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 1.5rem;
+}
+
+.card .additional .stats div.value.infinity {
+    font-size: 2.5rem;
+}
+
+.card .general {
+    width: 60vh;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    box-sizing: border-box;
+    padding: 1rem;
+    padding-top: 0;
+}
+
+.card .general .more {
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    font-size: 0.9em;
+}
+
+.card-graph{
+    background: var(--white);
+    padding: 2vh;
+    min-height: 30vh;
+    min-width: 56vh;
+    max-height: 46vh;
+    max-width: 90vh;
+    margin: 3vh;
+    position: relative;
+    border-radius: 5px;
+}
+
+.stats-holder {
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: left;
+}
+
+
+
+/* About Page */
+.about-content {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    width: 95vw;
+    height: 80vh;
+    margin: 2vw;
+    border-radius: 10px;
+    background-image: var(--primary);
+    backdrop-filter: blur(5px);
+}
+
+.about-banner {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 4vh;
+    background-image: var(--secondary);
+    backdrop-filter: blur(5px);
+}
+
+.about-title {
+    align-self: center;
+    flex: 1;
+    font-size: 3.2vh;
+    color: var(--black);
+    text-align: center;
+}
+
+.about-message {
+  padding: 3vw;
+  padding-top: 30vh;
+  font-size: 3.2vh;
+  text-align: center;
+  color: var(--black);
+}
+
+
+
+
+/* Open Information Page */
+.open-table{
+  overflow: scroll;
+  height: 142.5vh;
+  padding: 3vh;
+  }
+
+.openinfo-content {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    width: 95vw;
+    height: 150vh;
+    margin: 2vw;
+    border-radius: 10px;
+    background-image: var(--primary);
+    backdrop-filter: blur(5px);
+}
+
+
+/*Footer CSS*/
+footer {
+    position: relative;
+    left: 0;
+    top: auto;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 10vh;
+    margin-top: 20vh;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: var(--background);
+    text-align: left;
+    text-decoration: none;
+    align-items: flex-start;
+}
+
+.footer-icon {
+    position: relative;
+    width: auto;
+    height: 4vh;
+    border-radius: 100%;
+    background-size: contain;
+    color: var(--black);
+    text-decoration: none;
+}
+
+.footer-link {
+    position: relative;
+    color: var(--black);
+    font-size: 14px;
+    text-decoration: none;
+    text-align: center;
+    height: 5vh;
+    width: 100%;
+}

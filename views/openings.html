@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<link rel="icon" href="img/009-chess-4.png" />
+
+	<title>Chess Club!</title>
+
+	<link type="text/css" rel="stylesheet" href="/style.css" />
+	<!--gets your stylesheet (style.css)-->
+
+</head>
+
+<body>
+	<div class="navbar">
+		<a href="https://juneberries.github.io" class="icon-link"></a>
+		<a href="index.html" class="website-link"></a>
+		<a href="https://replit.com/@JuneBerries/Chess-Club" class="glitch-link"></a>
+
+		<div class="nav-container">
+			<a href="#" class="nav-link">
+				<img
+            src="img/004-chess-board.png"
+            alt=""
+            loading="lazy"
+            width="36"
+            height="36"
+            class="image-link"
+          />
+          <div class="link-text"><strong>Openings</strong></div>
+        </a>
+        <a href="view-stats.html" class="nav-link">
+          <img
+            src="img/001-chess-player.png"
+            alt=""
+            loading="lazy"
+            width="36"
+            height="36"
+            class="image-link"
+          />
+          <div class="link-text">Player Stats</div>
+        </a>
+        <a href="shop.html" class="nav-link">
+          <img
+            src="img/005-chess-2.png"
+            alt=""
+            loading="lazy"
+            width="36"
+            height="36"
+            class="image-link"
+          />
+          <div class="link-text">About</div>
+        </a>
+      </div>
+    </div>
+
+    <div class="open-container">
+      <div class="open-menu">
+        <div class="open-menu-title"><strong>Select</strong> an opening</div>
+
+        <div class="form-container">
+          <form class="form-container" name="openForm"> <!--required to use inputs. if your change the name = "" you will need to change it in client.js line 1-->
+            
+            <div class="open-option">
+              Opening Name
+            <input name="opening-name" id="opening-name" placeholder="Queens pawn game" type="text" max length="100"/> <br>
+            <p>Name must match</p>
+            </div>
+    
+            <br>
+            <!--you can change name, but if you do change line 3 
+    to match the new name. Change placeholder to suit your website(visible text in textbox)-->
+            <div class="open-option">
+            ECO Code
+            <input name="ECO-code" id="ECO-code" placeholder="D02" type="text" max length="3"/><br>
+            <p>A01-E92</p>
+            <br>
+            <a href="openinputs.html">
+              List of Names and ECOs</a>
+            </div>
+            
+            <br>
+            <p id="OpenMessage">Search for an opening!</p>
+            <!--you can change name, but if you do change line 4
+    to match the new name. Change placeholder to suit your website(visible text in textbox)-->
+            <!-- <button class="open-send" onclick="openPress()">Submit</button> -->
+            <input type="submit"/>
+            <!--Submit button tells the client.js the user has submitted new data (see line) -->
+          </form>
+        </div>
+      </div>
+      <div class="open-content">
+        <div class="open-banner">
+          <div class="open-title" id="opening-title"><strong>ECO</strong> Opening Name</div>
+        </div>
+        <div class="board-holder">
+          <img
+            id = "openingImage"
+            src="gifs/openingD023.gif"
+            loading="lazy"
+            sizes="(max-width: 767px) 28vw, (max-width: 991px) 27vw, 28vw"
+            class="open-board"
+          />
+          <div class="pgn-holder">
+            <p id="pgn-data"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="footer-content">
+        <a href="https://juneberries.github.io" target="_blank"
+          ><p class="footer-link">
+            <img
+              class="footer-icon"
+              alt="github"
+              src="img/jane.png"
+            /><br />©2021 Jane Alderson
+          </p></a
+        >
+      </div>
+    </footer>
+  </body>
+  <script src="/client.js"></script>
+  <!-- required to send data to client.js -->
+  <script>
+    theme();
+  </script>
+</html>

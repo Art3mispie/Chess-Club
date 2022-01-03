@@ -1,0 +1,185 @@
+1,A01,Nimzovich-Larsen Attack,1 b3
+2,A02,Bird's Opening,1 f4
+3,A03,Bird's Opening,1 f4 d5
+4,A04,Reti Opening,1 Nf3
+5,A05,Reti Opening,1 Nf3 Nf6
+6,A06,Reti Opening,1 Nf3 d5
+7,A07,King's Indian Attack,1 Nf3 d5 2 g3
+8,A08,King's Indian Attack,1 Nf3 d5 2 g3 c5 3 Bg2
+9,A09,Reti Opening,1 Nf3 d5 2 c4
+10,A10,English,1 c4
+11,A12,English with b3,1 c4 c6 2 Nf3 d5 3 b3
+12,A13,English,1 c4 e6
+13,A14,English,1 c4 e6 2 Nf3 d5 3 g3 Nf6 4 Bg2 Be7 5 O-O
+14,A15,English,1 c4 Nf6
+15,A16,English,1 c4 Nf6 2 Nc3
+16,A17,English,1 c4 Nf6 2 Nc3 e6
+17,A20,English,1 c4 e5
+18,A21,English,1 c4 e5 2 Nc3
+19,A22,English,1 c4 e5 2 Nc3 Nf6
+20,A25,English,1 c4 e5 2 Nc3 Nc6
+21,A26,English,1 c4 e5 2 Nc3 Nc6 3 g3 g6 4 Bg2 Bg7 5 d3 d6
+22,A28,English,1 c4 e5 2 Nc3 Nc6 3 Nf3 Nf6
+23,A36,English,1 c4 c5 2 Nc3 Nc6 3 g3
+24,A40,Queen's Pawn Game,1 d4
+25,A41,Queen's Pawn Game (with ...d6),1 d4 d6
+26,A43,Old Benoni,1 d4 c5
+27,A44,Old Benoni Defense,1 d4 c5 2 d5 e5
+28,A45,Queen's Pawn Game,1 d4 Nf6
+29,A46,Queen's Pawn Game,1 d4 Nf6 2 Nf3
+30,A47,Queen's Indian,1 d4 Nf6 2 Nf3 b6
+31,A48,King's Indian,1 d4 Nf6 2 Nf3 g6
+32,A50,Queen's Pawn Game,1 d4 Nf6 2 c4
+33,A51,Budapest Gambit,1 d4 Nf6 2 c4 e5
+34,A52,Budapest Gambit,1 d4 Nf6 2 c4 e5 3 dxe5 Ng4
+35,A53,Old Indian,1 d4 Nf6 2 c4 d6
+36,A56,Benoni Defense,1 d4 Nf6 2 c4 c5
+37,A57,Benko Gambit,1 d4 Nf6 2 c4 c5 3 d5 b5
+38,A58,Benko Gambit,1 d4 Nf6 2 c4 c5 3 d5 b5 4 cxb5 a6 5 bxa6
+39,A59,Benko Gambit,1 d4 Nf6 2 c4 c5 3 d5 b5 4 cxb5 a6 5 bxa6 Bxa6 6 Nc3 d6 7 e4
+40,A60,Benoni Defense,1 d4 Nf6 2 c4 c5 3 d5 e6
+41,A61,Benoni,1 d4 Nf6 2 c4 c5 3 d5 e6 4 Nc3 exd5 5 cxd5 d6 6 Nf3 g6
+42,A66,Benoni,1 d4 Nf6 2 c4 c5 3 d5 e6 4 Nc3 exd5 5 cxd5 d6 6 e4 g6 7 f4
+43,A80,Dutch,1 d4 f5
+44,A81,Dutch,1 d4 f5 2 g3
+45,A84,Dutch,1 d4 f5 2 c4
+46,A86,Dutch,1 d4 f5 2 c4 Nf6 3 g3
+47,A90,Dutch,1 d4 f5 2 c4 Nf6 3 g3 e6 4 Bg2
+48,A91,Dutch Defense,1 d4 f5 2 c4 Nf6 3 g3 e6 4 Bg2 Be7
+49,A92,Dutch,1 d4 f5 2 c4 Nf6 3 g3 e6 4 Bg2 Be7 5 Nf3 O-O
+50,B00,Uncommon King's Pawn Opening,1 e4
+51,B01,Scandinavian,1 e4 d5
+52,B02,Alekhine's Defense,1 e4 Nf6
+53,B03,Alekhine's Defense,1 e4 Nf6 2 e5 Nd5 3 d4
+54,B06,Robatsch,1 e4 g6
+55,B07,Pirc,1 e4 d6 2 d4 Nf6
+56,B10,Caro-Kann,1 e4 c6
+57,B12,Caro-Kann Defense,1 e4 c6 2 d4
+58,B15,Caro-Kann,1 e4 c6 2 d4 d5 3 Nc3
+59,B20,Sicilian,1 e4 c5
+60,B27,Sicilian,1 e4 c5 2 Nf3
+61,B30,Sicilian,1 e4 c5 2 Nf3 Nc6
+62,B32,Sicilian,1 e4 c5 2 Nf3 Nc6 3 d4 cxd4 4 Nxd4 e5
+63,B33,Sicilian,1 e4 c5 2 Nf3 Nc6 3 d4 cxd4 4 Nxd4
+64,B40,Sicilian,1 e4 c5 2 Nf3 e6
+65,B44,Sicilian,1 e4 c5 2 Nf3 e6 3 d4 cxd4 4 Nxd4 Nc6
+66,B50,Sicilian,1 e4 c5 2 Nf3 d6
+67,B53,Sicilian,1 e4 c5 2 Nf3 d6 3 d4 cxd4 4 Qxd4
+68,B54,Sicilian,1 e4 c5 2 Nf3 d6 3 d4 cxd4 4 Nxd4
+69,B56,Sicilian,1 e4 c5 2 Nf3 d6 3 d4 cxd4 4 Nxd4 Nf6 5 Nc3
+70,B57,Sicilian,1 e4 c5 2 Nf3 d6 3 d4 cxd4 4 Nxd4 Nf6 5 Nc3 Nc6 6 Bc4
+71,B58,Sicilian,1 e4 c5 2 Nf3 Nc6 3 d4 cxd4 4 Nxd4 Nf6 5 Nc3 d6 6 Be2
+72,B83,Sicilian,1 e4 c5 2 Nf3 d6 3 d4 cxd4 4 Nxd4 Nf6 5 Nc3 e6 6 Be2
+73,B89,Sicilian,1 e4 c5 2 Nf3 d6 3 d4 cxd4 4 Nxd4 Nf6 5 Nc3 e6 6 Bc4 Nc6 7 Be3
+74,C00,French Defense,1 e4 e6
+75,C10,French,1 e4 e6 2 d4 d5 3 Nc3
+76,C11,French,1 e4 e6 2 d4 d5 3 Nc3 Nf6
+77,C13,French,1 e4 e6 2 d4 d5 3 Nc3 Nf6 4 Bg5 Be7
+78,C20,King's Pawn Game,1 e4 e5
+79,C21,Center Game,1 e4 e5 2 d4 exd4
+80,C22,Center Game,1 e4 e5 2 d4 exd4 3 Qxd4 Nc6
+81,C23,Bishop's Opening,1 e4 e5 2 Bc4
+82,C24,Bishop's Opening,1 e4 e5 2 Bc4 Nf6
+83,C25,Vienna,1 e4 e5 2 Nc3
+84,C26,Vienna,1 e4 e5 2 Nc3 Nf6
+85,C27,Vienna Game,1 e4 e5 2 Nc3 Nf6 3 Bc4 Nxe4
+86,C28,Vienna Game,1 e4 e5 2 Nc3 Nf6 3 Bc4 Nc6
+87,C29,Vienna Gambit,1 e4 e5 2 Nc3 Nf6 3 f4
+88,C30,King's Gambit Declined,1 e4 e5 2 f4
+89,C33,King's Gambit Accepted,1 e4 e5 2 f4 exf4
+90,C34,King's Gambit Accepted,1 e4 e5 2 f4 exf4 3 Nf3
+91,C37,King's Gambit Accepted,1 e4 e5 2 f4 exf4 3 Nf3 g5 4 Nc3
+92,C38,King's Gambit Accepted,1 e4 e5 2 f4 exf4 3 Nf3 g5 4 Bc4 Bg7
+93,C39,King's Gambit Accepted,1 e4 e5 2 f4 exf4 3 Nf3 g5 4 h4
+94,C40,King's Knight Opening,1 e4 e5 2 Nf3
+95,C41,Philidor Defense,1 e4 e5 2 Nf3 d6
+96,C42,Petrov Defense,1 e4 e5 2 Nf3 Nf6
+97,C44,King's Pawn Game,1 e4 e5 2 Nf3 Nc6
+98,C45,Scotch Game,1 e4 e5 2 Nf3 Nc6 3 d4 exd4 4 Nxd4
+99,C46,Three Knights,1 e4 e5 2 Nf3 Nc6 3 Nc3
+100,C47,Four Knights,1 e4 e5 2 Nf3 Nc6 3 Nc3 Nf6
+101,C48,Four Knights,1 e4 e5 2 Nf3 Nc6 3 Nc3 Nf6 4 Bb5
+102,C49,Four Knights,1 e4 e5 2 Nf3 Nc6 3 Nc3 Nf6 4 Bb5 Bb4
+103,C50,Giuoco Piano,1 e4 e5 2 Nf3 Nc6 3 Bc4 Bc5
+104,C51,Evans Gambit,1 e4 e5 2 Nf3 Nc6 3 Bc4 Bc5 4 b4
+105,C52,Evans Gambit,1 e4 e5 2 Nf3 Nc6 3 Bc4 Bc5 4 b4 Bxb4 5 c3 Ba5
+106,C53,Giuoco Piano,1 e4 e5 2 Nf3 Nc6 3 Bc4 Bc5 4 c3
+107,C54,Giuoco Piano,1 e4 e5 2 Nf3 Nc6 3 Bc4 Bc5 4 c3 Nf6 5 d4 exd4 6 cxd4
+108,C55,Two Knights Defense,1 e4 e5 2 Nf3 Nc6 3 Bc4 Nf6
+109,C56,Two Knights,1 e4 e5 2 Nf3 Nc6 3 Bc4 Nf6 4 d4 exd4 5 O-O Nxe4
+110,C57,Two Knights,1 e4 e5 2 Nf3 Nc6 3 Bc4 Nf6 4 Ng5
+111,C58,Two Knights,1 e4 e5 2 Nf3 Nc6 3 Bc4 Nf6 4 Ng5 d5 5 exd5 Na5
+112,C59,Two Knights,1 e4 e5 2 Nf3 Nc6 3 Bc4 Nf6 4 Ng5 d5 5 exd5 Na5 6 Bb5+ c6 7 dxc6 bxc6 8 Be2 h6
+113,C60,Ruy Lopez,1 e4 e5 2 Nf3 Nc6 3 Bb5
+114,C66,Ruy Lopez,1 e4 e5 2 Nf3 Nc6 3 Bb5 Nf6 4 O-O d6
+115,C67,Ruy Lopez,1 e4 e5 2 Nf3 Nc6 3 Bb5 Nf6 4 O-O Nxe4
+116,C70,Ruy Lopez,1 e4 e5 2 Nf3 Nc6 3 Bb5 a6 4 Ba4
+117,C71,Ruy Lopez,1 e4 e5 2 Nf3 Nc6 3 Bb5 a6 4 Ba4 d6
+118,C77,Ruy Lopez,1 e4 e5 2 Nf3 Nc6 3 Bb5 a6 4 Ba4 Nf6
+119,C78,Ruy Lopez,1 e4 e5 2 Nf3 Nc6 3 Bb5 a6 4 Ba4 Nf6 5 O-O
+120,C87,Ruy Lopez,1 e4 e5 2 Nf3 Nc6 3 Bb5 a6 4 Ba4 Nf6 5 O-O Be7 6 Re1 d6
+121,C88,Ruy Lopez,1 e4 e5 2 Nf3 Nc6 3 Bb5 a6 4 Ba4 Nf6 5 O-O Be7 6 Re1 b5 7 Bb3
+122,D00,Queen's Pawn Game,1 d4 d5
+123,D01,Richter-Veresov Attack,1 d4 d5 2 Nc3 Nf6 3 Bg5
+124,D02,Queen's Pawn Game,1 d4 d5 2 Nf3
+125,D03,Torre Attack (Tartakower Variation),1 d4 d5 2 Nf3 Nf6 3 Bg5
+126,D04,Queen's Pawn Game,1 d4 d5 2 Nf3 Nf6 3 e3
+127,D05,Queen's Pawn Game,1 d4 d5 2 Nf3 Nf6 3 e3 e6
+128,D06,Queen's Gambit Declined,1 d4 d5 2 c4
+129,D10,Queen's Gambit Declined Slav,1 d4 d5 2 c4 c6
+130,D11,Queen's Gambit Declined Slav,1 d4 d5 2 c4 c6 3 Nf3
+131,D12,Queen's Gambit Declined Slav,1 d4 d5 2 c4 c6 3 Nf3 Nf6 4 e3 Bf5
+132,D15,Queen's Gambit Declined Slav,1 d4 d5 2 c4 c6 3 Nf3 Nf6 4 Nc3
+133,D16,Queen's Gambit Declined Slav,1 d4 d5 2 c4 c6 3 Nf3 Nf6 4 Nc3 dxc4 5 a4
+134,D17,Queen's Gambit Declined Slav,1 d4 d5 2 c4 c6 3 Nf3 Nf6 4 Nc3 dxc4 5 a4 Bf5
+135,D20,Queen's Gambit Accepted,1 d4 d5 2 c4 dxc4
+136,D21,Queen's Gambit Accepted,1 d4 d5 2 c4 dxc4 3 Nf3
+137,D22,Queen's Gambit Accepted,1 d4 d5 2 c4 dxc4 3 Nf3 a6 4 e3 Bg4 5 Bxc4 e6 6 d5
+138,D23,Queen's Gambit Accepted,1 d4 d5 2 c4 dxc4 3 Nf3 Nf6
+139,D24,Queen's Gambit Accepted,1 d4 d5 2 c4 dxc4 3 Nf3 Nf6 4 Nc3
+140,D25,Queen's Gambit Accepted,1 d4 d5 2 c4 dxc4 3 Nf3 Nf6 4 e3
+141,D26,Queen's Gambit Accepted,1 d4 d5 2 c4 dxc4 3 Nf3 Nf6 4 e3 e6
+142,D30,Queen's Gambit Declined,1 d4 d5 2 c4 e6
+143,D31,Queen's Gambit Declined,1 d4 d5 2 c4 e6 3 Nc3
+144,D35,Queen's Gambit Declined,1 d4 d5 2 c4 e6 3 Nc3 Nf6
+145,D37,Queen's Gambit Declined,1 d4 d5 2 c4 e6 3 Nc3 Nf6 4 Nf3
+146,D43,Queen's Gambit Declined Semi-Slav,1 d4 d5 2 c4 e6 3 Nc3 Nf6 4 Nf3 c6
+147,D44,Queen's Gambit Declined Semi-Slav,1 d4 d5 2 c4 e6 3 Nc3 Nf6 4 Nf3 c6 5 Bg5 dxc4
+148,D45,Queen's Gambit Declined Semi-Slav,1 d4 d5 2 c4 e6 3 Nc3 Nf6 4 Nf3 c6 5 e3
+149,D46,Queen's Gambit Declined Semi-Slav,1 d4 d5 2 c4 e6 3 Nc3 Nf6 4 Nf3 c6 5 e3 Nbd7 6 Bd3
+150,D47,Queen's Gambit Declined Semi-Slav,1 d4 d5 2 c4 e6 3 Nc3 Nf6 4 Nf3 c6 5 e3 Nbd7 6 Bd3 dxc4 7 Bxc4
+151,D50,Queen's Gambit Declined,1 d4 d5 2 c4 e6 3 Nc3 Nf6 4 Bg5
+152,D51,Queen's Gambit Declined,1 d4 d5 2 c4 e6 3 Nc3 Nf6 4 Bg5 Nbd7
+153,D52,Queen's Gambit Declined,1 d4 d5 2 c4 e6 3 Nc3 Nf6 4 Bg5 Nbd7 5 e3 c6 6 Nf3
+154,D53,Queen's Gambit Declined,1 d4 d5 2 c4 e6 3 Nc3 Nf6 4 Bg5 Be7
+155,D55,Queen's Gambit Declined,1 d4 d5 2 c4 e6 3 Nc3 Nf6 4 Bg5 Be7 5 e3 O-O 6 Nf3
+156,D56,Queen's Gambit Declined,1 d4 d5 2 c4 e6 3 Nc3 Nf6 4 Bg5 Be7 5 e3 O-O 6 Nf3 h6 7 Bh4
+157,D70,Neo-Grunfeld Defense,1 d4 Nf6 2 c4 g6 3 f3 d5
+158,D71,Neo-Grunfeld,1 d4 Nf6 2 c4 g6 3 g3 d5
+159,D80,Grunfeld,1 d4 Nf6 2 c4 g6 3 Nc3 d5
+160,D85,Grunfeld,1 d4 Nf6 2 c4 g6 3 Nc3 d5 4 cxd5 Nxd5
+161,D89,Grunfeld,1 d4 Nf6 2 c4 g6 3 Nc3 d5 4 cxd5 Nxd5 5 e4 Nxc3 6 bxc3 Bg7 7 Bc4 O-O 8 Ne2
+162,D90,Grunfeld,1 d4 Nf6 2 c4 g6 3 Nc3 d5 4 Nf3
+163,D94,Grunfeld,1 d4 Nf6 2 c4 g6 3 Nc3 d5 4 Nf3 Bg7 5 e3
+164,D95,Grunfeld,1 d4 Nf6 2 c4 g6 3 Nc3 d5 4 Nf3 Bg7 5 e3 O-O 6 Qb3
+165,E00,Queen's Pawn Game,1 d4 Nf6 2 c4 e6
+166,E10,Queen's Pawn Game,1 d4 Nf6 2 c4 e6 3 Nf3
+167,E11,Bogo-Indian Defense,1 d4 Nf6 2 c4 e6 3 Nf3 Bb4+
+168,E12,Queen's Indian,1 d4 Nf6 2 c4 e6 3 Nf3 b6
+169,E14,Queen's Indian,1 d4 Nf6 2 c4 e6 3 Nf3 b6 4 e3
+170,E15,Queen's Indian,1 d4 Nf6 2 c4 e6 3 Nf3 b6 4 g3
+171,E16,Queen's Indian,1 d4 Nf6 2 c4 e6 3 Nf3 b6 4 g3 Bb7 5 Bg2 Bb4+
+172,E17,Queen's Indian,1 d4 Nf6 2 c4 e6 3 Nf3 b6 4 g3 Bb7 5 Bg2 Be7
+173,E20,Nimzo-Indian,1 d4 Nf6 2 c4 e6 3 Nc3 Bb4
+174,E41,Nimzo-Indian,1 d4 Nf6 2 c4 e6 3 Nc3 Bb4 4 e3 c5
+175,E46,Nimzo-Indian,1 d4 Nf6 2 c4 e6 3 Nc3 Bb4 4 e3 O-O
+176,E60,King's Indian Defense,1 d4 Nf6 2 c4 g6
+177,E61,King's Indian,1 d4 Nf6 2 c4 g6 3 Nc3
+178,E70,King's Indian,1 d4 Nf6 2 c4 g6 3 Nc3 Bg7 4 e4
+179,E72,King's Indian,1 d4 Nf6 2 c4 g6 3 Nc3 Bg7 4 e4 d6 5 g3
+180,E73,King's Indian,1 d4 Nf6 2 c4 g6 3 Nc3 Bg7 4 e4 d6 5 Be2
+181,E77,King's Indian,1 d4 Nf6 2 c4 g6 3 Nc3 Bg7 4 e4 d6 5 f4 O-O 6 Be2
+182,E90,King's Indian,1 d4 Nf6 2 c4 g6 3 Nc3 Bg7 4 e4 d6 5 Nf3
+183,E91,King's Indian,1 d4 Nf6 2 c4 g6 3 Nc3 Bg7 4 e4 d6 5 Nf3 O-O 6 Be2
+184,E92,King's Indian,1 d4 Nf6 2 c4 g6 3 Nc3 Bg7 4 e4 d6 5 Nf3 O-O 6 Be2 e5
+185,E97,King's Indian,1 d4 Nf6 2 c4 g6 3 Nc3 Bg7 4 e4 d6 5 Nf3 O-O 6 Be2 e5 7 O-O Nc6
